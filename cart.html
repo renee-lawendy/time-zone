@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/file.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <a class="navbar-brand" href="#"><img src="img/first-page/logo (1).png" alt=""></a>
+            <div class="d-none d-sm-inline-block d-lg-none ml-auto ">
+                <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
+                <a class="nav-link" href="login.html"><i class="fas fa-user "></i></a>
+                <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item">
+                        <a class="nav-link mr-3" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mr-3" href="shop.html">Shope</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mr-3" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown latest">
+                        <a class="nav-link mr-3 " href="#">Latest</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="proudct-list.html">Product Lists</a>
+                            <a class="dropdown-item" href="product-details.html">Product Details</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link mr-3 " href="#">Blog</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="blog.html">Blog</a>
+                            <a class="dropdown-item" href="simple-blog.html">Blog Details</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link mr-3" href="#">Pages</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="login.html">Log in</a>
+                            <a class="dropdown-item" href="cart.html">Cart</a>
+                            <a class="dropdown-item" href="#">Element</a>
+                            <a class="dropdown-item" href="confirmation.html">Confirmation</a>
+                            <a class="dropdown-item" href="checkout.html">Product Chekout</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-none d-lg-inline-block">
+                <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
+                <a class="nav-link" href="login.html"><i class="fas fa-user "></i></a>
+                <a class="nav-link" href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </nav>
+    </header>
+    <!-- second section -->
+    <div class="about d-flex align-items-center justify-content-center">
+        <h2>Cart List</h2>
+    </div>
+    <!-- third section -->
+    <div class="cart-list py-5">
+        <div class="container">
+            <div class="table-responsive">
+                <table class="table table-borderless">
+                    <thead>
+                        <tr class="border-bottom">
+                            <th scope="col">Product</th>
+                            <th scope="col" class="text-right">price</th>
+                            <th scope="col" class="text-center">Quantity</th>
+                            <th scope="col" class="text-right">Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="border-bottom">
+                            <td>
+                                <div class="media d-flex align-items-center">
+                                    <img class="border mr-3" src="img/first-page/xcard1.png" width="150" height="150"
+                                        alt="...">
+                                    <div class="media-body">
+                                        <p>Minimalistic shop for multipurpose use</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="align-middle text-right">$360.00</td>
+                            <td class="align-middle">
+                                <nav aria-label="...">
+                                    <ul class="pagination d-flex justify-content-center">
+                                        <li class="page-item"><a class="page-link number " href="#">1</a></li>
+                                        <li class="page-item  ">
+                                            <a class="page-link sign" href="#" tabindex="-1" aria-disabled="true">-</a>
+                                            <a class="page-link sign " href="#">+</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </td>
+                            <td class="align-middle text-right">$720.00</td>
+                        </tr>
+                        <tr class="border-bottom">
+                            <td>
+                                <div class="media d-flex align-items-center">
+                                    <img class="border mr-3" src="img/first-page/xcard2.png" width="150" height="150"
+                                        alt="...">
+                                    <div class="media-body">
+                                        <p>Minimalistic shop for multipurpose use</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="align-middle text-right">$360.00</td>
+                            <td class="align-middle ">
+                                <nav aria-label="...">
+                                    <ul class="pagination d-flex justify-content-center">
+                                        <li class="page-item"><a class="page-link number " href="#">1</a></li>
+                                        <li class="page-item  ">
+                                            <a class="page-link sign" href="#" tabindex="-1" aria-disabled="true">-</a>
+                                            <a class="page-link sign " href="#">+</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </td>
+                            <td class="align-middle text-right">$720.00</td>
+                        </tr>
+                        <tr class="border-bottom">
+                            <td><a class="btn btn-primary" href="#" role="button">Update Cart</a></td>
+                            <td></td>
+                            <td></td>
+                            <td class="text-right"><a class="btn btn-primary" href="#" role="button">Close Coupon</a>
+                            </td>
+                        </tr>
+                        <tr class="border-bottom">
+                            <td></td>
+                            <td></td>
+                            <td class="text-center">Subtotal</td>
+                            <td class="text-right">$2160.00</td>
+                        </tr>
+                        <tr class="border-bottom">
+                            <td></td>
+                            <td></td>
+                            <td class="text-center">Shipping</td>
+                            <td class="text-right">
+                                <ul class="list-unstyled">
+                                    <li><label for="">Flat Rate: $5.00</label>
+                                        <input class="ml-3" type="radio">
+                                    </li>
+                                    <li><label for="">Free Shipping </label>
+                                        <input class="ml-3" type="radio">
+                                    </li>
+                                    <li><label for="">Flat Rate: $10.00</label>
+                                        <input class="ml-3" type="radio">
+                                    </li>
+                                    <li><label for="">Local Delivery: $2.00</label>
+                                        <input class="ml-3" type="radio">
+                                    </li>
+                                    <li>
+                                        <div class="dropdown mb-3">
+                                            <button class="btn btn-secondary dropdown-toggle" type="button"
+                                                id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                                aria-expanded="false">
+                                                Bangladesh
+                                            </button>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                <a class="dropdown-item" href="#">Bangladesh</a>
+                                                <a class="dropdown-item" href="#">India</a>
+                                                <a class="dropdown-item" href="#">Pakistan</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="dropdown mb-3">
+                                            <button class="btn btn-secondary dropdown-toggle" type="button"
+                                                id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                                aria-expanded="false">
+                                                select a state
+                                            </button>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                <a class="dropdown-item" href="#">select a state</a>
+                                                <a class="dropdown-item" href="#">select a state</a>
+                                                <a class="dropdown-item" href="#">select a state</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li><input class="py-2 px-3 mb-2 w-100" type="text" placeholder="Postcode/Zipcode">
+                                    </li>
+                                </ul>
+                                <a class="btn btn-primary w-100" href="#" role="button">Continue Shopping</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>
+                                <a class="btn btn-primary" href="#" role="button">Continue Shopping</a>
+                            </td class="text-center">
+                            <td class="text-right"><a class="btn btn-primary w-100" href="#" role="button">Proceed to
+                                    Checkout</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer>
+        <div class="footer py-5">
+            <div class="container">
+                <div class="row mt-5 first-footer">
+                    <div class="col-lg-3 col-md-6 mb-3">
+                        <img src="img/first-page/logo (1).png" alt="">
+                        <p class="default-p">Asorem ipsum adipolor sdit amet, consectetur adipisicing elitcf sed do
+                            eiusmod tem.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-3">
+                        <h3>Quick Links</h3>
+                        <ul class="list-unstyled">
+                            <li>About</li>
+                            <li>Offers & Discounts</li>
+                            <li>Get Coupon</li>
+                            <li>Contact Us</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-3">
+                        <h3>New Products</h3>
+                        <ul class="list-unstyled">
+                            <li>Woman Cloth</li>
+                            <li>Fashion Accessories</li>
+                            <li>Man Accessories</li>
+                            <li>Rubber made Toys</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-3">
+                        <h3>Support</h3>
+                        <ul class="list-unstyled">
+                            <li>Frequently Asked Questions</li>
+                            <li>Terms & Conditions</li>
+                            <li>Privacy Policy</li>
+                            <li>Report a Payment Issue</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="second-footer mt-5">
+                    <p class="mb-0">Copyright ©2021 All rights reserved | This template is made with
+                        <i class="fas fa-heart text-danger"></i>
+                        by
+                        <a class="d-inline-block colorib " href="#">Colorlib</a>
+                    </p>
+                    <div class=" text-right social-media">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                        <a href="#"><i class="fab fa-behance"></i></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
